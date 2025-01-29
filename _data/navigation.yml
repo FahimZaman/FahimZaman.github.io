@@ -6,9 +6,9 @@
 
 main:
   - title: "CV"
-    url: '/files/Resume_FahimZaman.pdf
+    url: /files/Resume_FahimZaman.pdf
 
-  - title: "Portfolio"
+  - title: "Research"
     url: /portfolio/
     
   - title: "Publications"
