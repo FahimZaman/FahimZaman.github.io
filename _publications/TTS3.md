@@ -1,7 +1,7 @@
 ---
 title: "Diagnosis of Takotsubo Syndrome by Robust Feature Selection from the Complex Latent Space of DL-Based Segmentation Network"
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/TTS3
 date: 2024-05-27
 venue: 'IEEE International Symposium on Biomedical Imaging (ISBI)'
