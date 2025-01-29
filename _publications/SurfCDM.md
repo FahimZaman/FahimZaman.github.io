@@ -1,7 +1,7 @@
 ---
 title: "Surf-CDM: Score-Based Surface Cold-Diffusion Model for Medical Image Segmentation"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/SurfCDM
 date: 2024-05-27
 venue: 'ISBI 2024'
