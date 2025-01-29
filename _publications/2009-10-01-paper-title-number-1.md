@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
 date: 2025-01-20
 venue: 'ArXiv'
+excerpt: ''
 paperurl: 'https://arxiv.org/abs/2407.12952'
 ---
 
