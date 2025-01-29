@@ -3,7 +3,7 @@ title: "Patch-wise 3D segmentation quality assessment combining reconstruction a
 collection: publications
 category: manuscripts
 permalink: /publication/SQA2
-date: 2025-09-15
+date: 2023-09-15
 venue: 'Journal of Medical Imaging'
 excerpt: ''
 paperurl: 'https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging/volume-10/issue-5/054002/Patch-wise-3D-segmentation-quality-assessment-combining-reconstruction-and-regression/10.1117/1.JMI.10.5.054002.full'
