@@ -2,7 +2,7 @@
 title: "Latent Diffusion for Medical Image Segmentation: End to end learning for fast sampling and accuracy"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/Latent_Diffusion_for_Medical_Image_Segmentation
 date: 2025-01-20
 venue: 'ArXiv'
 excerpt: ''
