@@ -21,7 +21,7 @@ repository               : "FahimZaman/FahimZaman.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "ProfilePic.png"
+  avatar           : "ProfilePic.jpg"
   name             : "Fahim Ahmed Zaman"
   pronouns         : # example: "she/her"  
   bio              : "I am a Postdoctoral Scholar at the University of Iowa. My reseach focuses on computer vision, large language models and medical image analysis."
