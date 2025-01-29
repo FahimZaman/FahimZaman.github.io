@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/SurfCDM
 date: 2024-05-27
-venue: 'ISBI 2024'
+venue: 'IEEE International Symposium on Biomedical Imaging (ISBI)'
 excerpt: ''
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10635329'
 ---
