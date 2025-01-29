@@ -3,7 +3,7 @@ title: "Spatio-temporal hybrid neural networks reduce erroneous human 'judgement
 collection: publications
 category: manuscripts
 permalink: /publication/TTS1
-date: 2025-01-20
+date: 2021-10-01
 venue: 'eClinicalMedicine'
 excerpt: ''
 paperurl: 'https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(21)00395-3/fulltext'
