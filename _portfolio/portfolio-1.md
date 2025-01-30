@@ -22,43 +22,18 @@ The denoised latent space $z_{dn}$ is mapped to segmentation $\hat{y}$ using the
 
 In the inference phase, image embedding is obtained first using the image encoder, and then the Denoiser is iterated for $t = T \cdots 1$ to obtain ![Math](https://latex.codecogs.com/png.latex?\tilde{z}_{l(0)}), staring with ![Math](https://latex.codecogs.com/png.latex?\tilde{z}_{l(T)}) as a Gaussian random noise $(\mathcal{N}(\mathrm{0, I}))$. Finally, the trained label decoder is used to get the final segmentation $\hat{y}$.
 
+--------------------
+
 ## Results
 A few examples of segmentation are given below for the Echo, GlaS and Knee datasets. Top row shows the source images/mmageslices, 2nd and 3rd row shows the reverse diffusion for the latent space and the segmentation outputs. The bottom layer shows the segmentations overlay on the source images.
 
---------------------
-
 ### <ins> <p align='center'> Echo </ins>
-![Echo](images/EchoSeg.gif)
-
-<br/>
-
-### <ins> <p align='center'> GlaS </ins>
-![GlaS](images/GlaSSeg.gif)
-
-<br/>
-
-### <ins> <p align='center'> Knee </ins>
-![Knee](images/KneeSeg.gif)
-
+![LDSegResults](images/LDSegResults.gif)
 
 --------------------
 
 ## Robustness to noises
 An example from each dataset is shown to demonstrate the model robustness to noise. Here, $\sigma$ is the variance of the added noise to the source image. DSC is the Dice Similarity Co-efficient score for the image (2D/3D). For the Knee dataset, a randomly selected slice is shown for convenience.
 
---------------------
-
 ### <ins> <p align='center'> Echo </ins>
-![RobustnessEcho](images/RobustnessEcho.gif)
-
-<br/>
-
-### <ins> <p align='center'> GlaS </ins>
-![RobustnessGlaS](images/RobustnessGlaS.gif)
-
-<br/>
-
-### <ins> <p align='center'> Knee </ins>
-![RobustnessKnee](images/RobustnessKnee.gif)
-
---------------------
+![LDSegRobustness](images/LDSegRobustness.gif)
