@@ -1,6 +1,6 @@
 ---
 title: "LDSeg: Latent Diffusion for Medical Image Segmentation"
-excerpt: "In this project we introduce a novel latent diffusion model for n-D medical image segmentation. The end-to-end training strategy ensures significantly faster sampling in the inference phase with improved segmentation accuracy and robustness to noisy acquisition. <br/><img src='/images/Method.png'>"
+excerpt: "In this project we introduce a novel latent diffusion model for n-D medical image segmentation. The end-to-end training strategy ensures significantly faster sampling in the inference phase with improved segmentation accuracy and robustness to noisy acquisition. <br/><img src='/images/KneeSeg.png'>"
 collection: portfolio
 ---
 
