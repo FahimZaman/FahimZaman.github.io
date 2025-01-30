@@ -22,13 +22,13 @@ In the inference phase, image embedding is obtained first using the image encode
 --------------------
 
 ## Results
-A few examples of segmentation are given below for the Echo, GlaS and Knee datasets. Top row shows the source images/mmageslices, 2nd and 3rd row shows the reverse diffusion for the latent space and the segmentation outputs. The bottom layer shows the segmentations overlay on the source images.
+A few examples of segmentation are given below for the Echo, GlaS and Knee datasets. Top row shows the source images/imageslices, 2nd and 3rd row shows the reverse diffusion for the latent space and the segmentation outputs. The bottom layer shows the segmentations overlay on the source images.
 
 ![LDSegResults](/images/LDSegResults.gif)
 
 --------------------
 
 ## Robustness to noises
-An example from each dataset is shown to demonstrate the model robustness to noise. Here, $\sigma$ is the variance of the added noise to the source image. DSC is the Dice Similarity Co-efficient score for the image (2D/3D). For the Knee dataset, a randomly selected slice is shown for convenience.
+An example from each dataset is shown to demonstrate the model robustness to noise.
 
 ![LDSegRobustness](/images/LDSegRobustness.gif)
