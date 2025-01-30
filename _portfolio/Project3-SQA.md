@@ -14,11 +14,11 @@ A unet-based model predicts the volumetric erroneous regions around target objec
 ## Patch-wise SQA
 A GAN-based reconstruction network is trained to reconstruct the masked segmented regions only when the segmentation is accurate. Then based on the reconstruction error and the obtained segmentation, a regression model predicts patch-wise error magnitude. By design, the reconstruction network fails when the obtained segmentation is not accurate, hence produces segmentation related error features which is later used for error location and magnitude prediction.
 
-![SQA2](/images/SQA2.png)
+![SQA2](/images/SQA2.PNG)
 
 --------------------
 
 ## SQA with adversarial attacks
 The regresion model is extremely vulnerable to a well desinged adversarial attack. Hence, any SQA model equipped with regression model can produce false negatives in such attacks which is seriously detrimental for downstream disease analysis. We introduce a GAN-based validation model that compares the structural similarity between the reconstructed and given input image to validate if the SQA model is under adversarial attack, thus preventing any false negatives in the results.
 
-![SQA3](/images/SQA3.png)
+![SQA3](/images/SQA3.PNG)
