@@ -8,8 +8,8 @@ main:
   - title: "CV"
     url: /files/Resume_FahimZaman.pdf
 
-  # - title: "Projects"
-  #   url: /portfolio/
+  - title: "Projects"
+    url: /portfolio/
     
   - title: "Publications"
     url: /publications/
