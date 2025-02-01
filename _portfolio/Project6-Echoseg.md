@@ -1,5 +1,5 @@
 ---
-title: "Windows tool for Echocardiogram video segmentation"
+title: "EchoSeg: Windows tool for Echocardiogram video segmentation"
 excerpt: "In this project, we developed a windows tool for echocardiogram video segmentation using optical flow algorithm. <br/> ![demo](/images/Echosegdemos.gif)"
 collection: portfolio
 ---
